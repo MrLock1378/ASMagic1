@@ -708,9 +708,9 @@ def langkb() :
 def ln(l,s,arg = None) :
     if s == 'started' :
         if l == 'en' :
-            return '💫 *Welcome to "Magic Anti Spam Bot" :)*\n⚜️ _Bot Created  in _ [MagicTeam](https://telegram.me/magicnews)_ with ❤️ by @jan123\nChoose One:_'
+            return '💫 *Welcome to "Flash Anti Spam Bot" :)*\n⚜️ _Bot Created  in _ [LockerTeam](https://telegram.me/LockerTeam)_ with ❤️ by @SudoLocker\nChoose One:_'
         else :
-            return '💫 به ربات "آنتی اسپم مجیک " خوش امدید :)\n⚜️ ساخته شده در  [MagicTeam](https://telegram.me/magicnews) با ❤️ توسط @jan123\nیکی را انتخاب کنید: '
+            return '💫 به ربات "آنتی اسپم فلش " خوش امدید :)\n⚜️ ساخته شده در  [LockerTeam](https://telegram.me/LockerTeam) با ❤️ توسط @SudoLocker\nیکی را انتخاب کنید: '
     if s == 'newsubset' :
         if l == 'en' :
             return '🚀 User \n'+inf(arg['user'])+'\nJoined to robot as your subset.'
@@ -790,7 +790,7 @@ def ln(l,s,arg = None) :
     🔸Warn Action => _"""+(warnaction or 'kick')+"""_
     🔸Welcome Status: _"""+(wlc or 'Disable')+"""_
          -----------------------
-Channel:@MagicNews"""
+Channel:@LockerTeam"""
         return settings
     elif s == 'chatinfot' :
         if l == 'en' :
